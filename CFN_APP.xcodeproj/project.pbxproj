@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B83FB14F24B27391005B80CA /* CalcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB14E24B27391005B80CA /* CalcData.swift */; };
+		B83FB15224B2B190005B80CA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB15124B2B190005B80CA /* GridView.swift */; };
+		B83FB15424B2B208005B80CA /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB15324B2B208005B80CA /* GridData.swift */; };
 		B8DB596D24AC1D9D00AEA9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */; };
 		B8DB596F24AC1D9D00AEA9E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */; };
 		B8DB597124AC1D9D00AEA9E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB597024AC1D9D00AEA9E1 /* ContentView.swift */; };
@@ -15,6 +18,10 @@
 		B8DB597924AC1D9F00AEA9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DB597724AC1D9F00AEA9E1 /* LaunchScreen.storyboard */; };
 		B8DB598424AC1DA000AEA9E1 /* CFN_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB598324AC1DA000AEA9E1 /* CFN_APPTests.swift */; };
 		B8DB598F24AC1DA000AEA9E1 /* CFN_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB598E24AC1DA000AEA9E1 /* CFN_APPUITests.swift */; };
+		B8DB59A724AE853400AEA9E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB59A624AE853400AEA9E1 /* HomeView.swift */; };
+		B8DB59A924AE855D00AEA9E1 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB59A824AE855D00AEA9E1 /* SideBarView.swift */; };
+		B8DB59AB24AE857700AEA9E1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB59AA24AE857700AEA9E1 /* Data.swift */; };
+		B8DB59AD24AE859700AEA9E1 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB59AC24AE859600AEA9E1 /* CalcView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B83FB14E24B27391005B80CA /* CalcData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcData.swift; sourceTree = "<group>"; };
+		B83FB15124B2B190005B80CA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		B83FB15324B2B208005B80CA /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
 		B8DB596924AC1D9D00AEA9E1 /* CFN_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFN_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		B8DB598A24AC1DA000AEA9E1 /* CFN_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFN_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DB598E24AC1DA000AEA9E1 /* CFN_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFN_APPUITests.swift; sourceTree = "<group>"; };
 		B8DB599024AC1DA000AEA9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DB59A624AE853400AEA9E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B8DB59A824AE855D00AEA9E1 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		B8DB59AA24AE857700AEA9E1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B8DB59AC24AE859600AEA9E1 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B83FB15024B2B109005B80CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DB59A624AE853400AEA9E1 /* HomeView.swift */,
+				B8DB59A824AE855D00AEA9E1 /* SideBarView.swift */,
+				B8DB59AC24AE859600AEA9E1 /* CalcView.swift */,
+				B83FB15124B2B190005B80CA /* GridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B8DB596024AC1D9D00AEA9E1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +124,13 @@
 		B8DB596B24AC1D9D00AEA9E1 /* CFN_APP */ = {
 			isa = PBXGroup;
 			children = (
+				B83FB15024B2B109005B80CA /* Views */,
 				B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */,
 				B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */,
 				B8DB597024AC1D9D00AEA9E1 /* ContentView.swift */,
+				B8DB59AA24AE857700AEA9E1 /* Data.swift */,
+				B83FB14E24B27391005B80CA /* CalcData.swift */,
+				B83FB15324B2B208005B80CA /* GridData.swift */,
 				B8DB597224AC1D9F00AEA9E1 /* Assets.xcassets */,
 				B8DB597724AC1D9F00AEA9E1 /* LaunchScreen.storyboard */,
 				B8DB597A24AC1D9F00AEA9E1 /* Info.plist */,
@@ -267,8 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DB59AD24AE859700AEA9E1 /* CalcView.swift in Sources */,
 				B8DB596D24AC1D9D00AEA9E1 /* AppDelegate.swift in Sources */,
+				B8DB59AB24AE857700AEA9E1 /* Data.swift in Sources */,
+				B8DB59A724AE853400AEA9E1 /* HomeView.swift in Sources */,
 				B8DB596F24AC1D9D00AEA9E1 /* SceneDelegate.swift in Sources */,
+				B83FB15424B2B208005B80CA /* GridData.swift in Sources */,
+				B8DB59A924AE855D00AEA9E1 /* SideBarView.swift in Sources */,
+				B83FB14F24B27391005B80CA /* CalcData.swift in Sources */,
+				B83FB15224B2B190005B80CA /* GridView.swift in Sources */,
 				B8DB597124AC1D9D00AEA9E1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
