@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var showMenu: Bool = false;
     
     var body: some View {
-
+            
         let drag = DragGesture().onEnded {
             if ($0.translation.width < -100){
                 withAnimation {
@@ -32,6 +32,10 @@ struct ContentView: View {
                     }else if(self.data.shownScreen == "calc"){
                         CalcView().frame(width: geometry.size.width, height: geometry.size.height)
                         .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                    }
+                    else if(self.data.shownScreen == "grid"){
+                        GridView().frame(width: geometry.size.width, height: geometry.size.height)
+                            .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                     }
                     
                         

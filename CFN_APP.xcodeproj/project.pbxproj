@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B83ED6C724D4AE920067656A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83ED6C624D4AE920067656A /* CellView.swift */; };
 		B83FB14F24B27391005B80CA /* CalcData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB14E24B27391005B80CA /* CalcData.swift */; };
-		B83FB15224B2B190005B80CA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB15124B2B190005B80CA /* GridView.swift */; };
 		B83FB15424B2B208005B80CA /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB15324B2B208005B80CA /* GridData.swift */; };
+		B83FB15E24C2849C005B80CA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FB15D24C2849C005B80CA /* GridView.swift */; };
 		B8DB596D24AC1D9D00AEA9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */; };
 		B8DB596F24AC1D9D00AEA9E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */; };
 		B8DB597124AC1D9D00AEA9E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB597024AC1D9D00AEA9E1 /* ContentView.swift */; };
@@ -42,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B83ED6C624D4AE920067656A /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		B83FB14E24B27391005B80CA /* CalcData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcData.swift; sourceTree = "<group>"; };
-		B83FB15124B2B190005B80CA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		B83FB15324B2B208005B80CA /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
+		B83FB15D24C2849C005B80CA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		B8DB596924AC1D9D00AEA9E1 /* CFN_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFN_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,10 +95,12 @@
 		B83FB15024B2B109005B80CA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B8DB597024AC1D9D00AEA9E1 /* ContentView.swift */,
 				B8DB59A624AE853400AEA9E1 /* HomeView.swift */,
 				B8DB59A824AE855D00AEA9E1 /* SideBarView.swift */,
 				B8DB59AC24AE859600AEA9E1 /* CalcView.swift */,
-				B83FB15124B2B190005B80CA /* GridView.swift */,
+				B83FB15D24C2849C005B80CA /* GridView.swift */,
+				B83ED6C624D4AE920067656A /* CellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,7 +131,6 @@
 				B83FB15024B2B109005B80CA /* Views */,
 				B8DB596C24AC1D9D00AEA9E1 /* AppDelegate.swift */,
 				B8DB596E24AC1D9D00AEA9E1 /* SceneDelegate.swift */,
-				B8DB597024AC1D9D00AEA9E1 /* ContentView.swift */,
 				B8DB59AA24AE857700AEA9E1 /* Data.swift */,
 				B83FB14E24B27391005B80CA /* CalcData.swift */,
 				B83FB15324B2B208005B80CA /* GridData.swift */,
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83ED6C724D4AE920067656A /* CellView.swift in Sources */,
 				B8DB59AD24AE859700AEA9E1 /* CalcView.swift in Sources */,
 				B8DB596D24AC1D9D00AEA9E1 /* AppDelegate.swift in Sources */,
 				B8DB59AB24AE857700AEA9E1 /* Data.swift in Sources */,
@@ -304,7 +308,7 @@
 				B83FB15424B2B208005B80CA /* GridData.swift in Sources */,
 				B8DB59A924AE855D00AEA9E1 /* SideBarView.swift in Sources */,
 				B83FB14F24B27391005B80CA /* CalcData.swift in Sources */,
-				B83FB15224B2B190005B80CA /* GridView.swift in Sources */,
+				B83FB15E24C2849C005B80CA /* GridView.swift in Sources */,
 				B8DB597124AC1D9D00AEA9E1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,8 +28,8 @@ struct SideBarView: View {
             }
             Divider()
             HStack(){
-                Button(action: {}){
-                    Text("___")
+                Button(action: {self.data.shownScreen = "grid"}){
+                    Text("Grid")
                 }
             }
             Spacer()
